@@ -177,7 +177,7 @@ function Skyline({ height }: { height: string }) {
                 y={GROUND - t.h + 1.6 + r * 3.2}
                 width={t.w * 0.44}
                 height={0.7}
-                fill="#62b6e0"
+                fill="#56c8d8"
                 opacity={0.5}
               />
             );
@@ -227,7 +227,7 @@ function Skyline({ height }: { height: string }) {
               y={GROUND - r.h * 0.35}
               width={0.9}
               height={1.3}
-              fill="#e2705c"
+              fill="#e0a05c"
               opacity={0.7}
             />
           )}
