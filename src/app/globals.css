@@ -33,47 +33,47 @@
    * 只让金色标题、厂商色屋顶和四条能力条带颜色。暗色 UI 的通行做法：
    * 背景退后，信息前进。
    */
-  --color-void: #0d1017;
-  --color-dusk: #1a1f2b;
-  --color-twilight: #3b4b6b;
-  --color-ember: #b96a4a;
-  --color-dawn: #e9a663;
-  --color-gold: #f2cf6a;
+  --color-void: #0a1218;
+  --color-dusk: #12222a;
+  --color-twilight: #2c4d57;
+  --color-ember: #c8764a;
+  --color-dawn: #7fd8c0;
+  --color-gold: #f0d493;
 
   /* 界面 */
-  --color-ink: #10141c;
-  --color-ink-soft: #3a4253;
-  --color-parchment: #ece4d0;
-  --color-parchment-dim: #c9bc9d;
-  --color-parchment-lit: #fbf6ea;
+  --color-ink: #0e161c;
+  --color-ink-soft: #3d5260;
+  --color-parchment: #dfe9e4;
+  --color-parchment-dim: #aebfb7;
+  --color-parchment-lit: #f2faf5;
 
   /* 国外 / 国内的识别色。天蓝对朱红，都往灰里压了一档，不刺眼 */
-  --color-west: #62b6e0;
-  --color-east: #e2705c;
+  --color-west: #56c8d8;
+  --color-east: #e0a05c;
 
   /* 地面与建筑 */
-  --color-grass: #4b7d5a;
-  --color-grass-dark: #34573f;
-  --color-stone: #5f6878;
-  --color-stone-dark: #3a4150;
-  --color-ground: #202634;
+  --color-grass: #3f7a68;
+  --color-grass-dark: #2b574a;
+  --color-stone: #536b76;
+  --color-stone-dark: #31424c;
+  --color-ground: #16232b;
 
   /*
    * 屋子。墙面按房龄分五档，都是同一族的蓝灰，只在明度上拉开；
    * 地板与名牌比墙面再深一档，做出「剖面」的层次。
    */
-  --color-wall-new: #2f3a52;
-  --color-wall-young: #2c364c;
-  --color-wall-mid: #293245;
-  --color-wall-old: #252d3e;
-  --color-wall-ghost: #212836;
-  --color-floor: #181d28;
-  --color-plate: #151a24;
+  --color-wall-new: #2d4a52;
+  --color-wall-young: #2a454d;
+  --color-wall-mid: #274047;
+  --color-wall-old: #233a41;
+  --color-wall-ghost: #1f343a;
+  --color-floor: #142229;
+  --color-plate: #101c22;
 
   /* 状态 */
-  --color-crown: #f2cf6a;
-  --color-newborn: #7fd58a;
-  --color-ghost: #8f98ad;
+  --color-crown: #ffd98e;
+  --color-newborn: #8ee6a1;
+  --color-ghost: #8aa3ad;
 
   /* 像素世界不该有圆角，全站统一清零 */
   --radius-none: 0px;

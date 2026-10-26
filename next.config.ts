@@ -3,6 +3,13 @@ import type { NextConfig } from 'next';
 const nextConfig: NextConfig = {
   output: 'export',
   /*
+   * 静态生成默认会开出与 CPU 数相同的 worker（本机 14 个），817 页时内存吃紧。
+   * 压到 2 个 worker：慢一点但稳定。
+   */
+  experimental: {
+    cpus: 2,
+  },
+  /*
    * 开发服务器运行时执行 `next build` 会覆写同一个 .next 目录，导致 dev 立刻 404。
    * 让构建可以指到另一个目录：NEXT_DIST_DIR=.next-build npm run build
    */
